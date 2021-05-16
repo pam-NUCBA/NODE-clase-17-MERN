@@ -1,0 +1,14 @@
+.card {
+    margin-bottom: 2em;
+}
+
+.card:hover {
+    background-color: rgb(254, 254, 255);
+    transform: scale(1.1);
+}
+
+.icon:hover,
+.delete-icon:hover {
+    cursor: pointer;
+    filter: saturate(8);
+}
