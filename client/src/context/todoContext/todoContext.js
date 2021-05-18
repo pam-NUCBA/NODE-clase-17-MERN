@@ -1,6 +1,6 @@
   
 import { createContext } from "react";
 
-const todoContext = createContext();
+const TodoContext = createContext();
 
-export default todoContext;
+export default TodoContext;

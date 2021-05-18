@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import Todo from "./Todo";
-import todoContext from "../context/todoContext/todoContext";
+import TodoContext from "../context/todoContext/todoContext";
 import { Badge, Row } from "reactstrap";
 
 const TodosList = () => {
-    const { todos, getTodos } = useContext(todoContext);
+    const { todos, getTodos } = useContext(TodoContext);
 
   useEffect(() => {
     getTodos();

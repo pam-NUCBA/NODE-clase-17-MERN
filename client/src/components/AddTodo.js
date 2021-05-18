@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import { Form, FormGroup, Input, Col, Button } from "reactstrap";
-import todoContext from "../context/todoContext/todoContext";
+import TodoContext from "../context/todoContext/todoContext";
 
 const AddTodo = () => {
-  const { addTodo } = useContext(todoContext);
+  const { addTodo } = useContext(TodoContext);
 
   const [todo, setTodo] = useState({ title: "" });
   const { title } = todo;
